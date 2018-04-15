@@ -1,5 +1,12 @@
 body {
-	background-color: #111;
+	background-color: #333;
+	color: #FFF;
+	text-align:center;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 40px 0px 20px;
 }
 
 h1 {
@@ -9,14 +16,17 @@ h1 {
 	font-size: 3.4em;
 }
 
-a:link { color:#FFC107; text-decoration:none }
-a:visited { color:#FFC107; text-decoration:none }
+footer {
+	color: #777
+}
+a:link { color:#a00; text-decoration:none }
+a:visited { color:#a00; text-decoration:none }
 a:hover { color:#FFC107; text-decoration:none }
 a:active { color:#FFC107; text-decoration:none }
 
 div {
 	padding: 0.1em;
-	color: #FFC107;
+	color: #600;
 	font-family:arial, sans-serif;
 	font-size: 1.4em;
 }

@@ -13,7 +13,6 @@
     </script>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="Luv-Accordion Web">
     <meta name="author" content="K.Matsumoto">
 
@@ -21,8 +20,6 @@
 
 <!--
 -->
-<!-- 初期状態は非表示 -->
-<style type="text/css">body { visibility: hidden; }</style>
 <noscript>
 <!-- スクリプトが無効な場合は以下の指定がカスケードされる -->
 <style type="text/css">body { visibility: visible; }</style>
@@ -43,54 +40,35 @@
 </head>
 
 <body>
-    <h1>Luv-Accordion Web</h1>
+<img src="./images/Luv-AccordionLogo.svg"  width="500">
+
+<!--    <h1>Luv-Accordion Web</h1>-->
     <br>
-    <div><a href=https://twitter.com/kemapoo>Twitter</a></div>
-    <br>
-    <div><a href=https://www.youtube.com/channel/UCdPFXZZgVZLrsT15tfdZXtw>Youtube</a></div>
-    <br>
-    <div><a href="viewer.html">Viewer</a></div>
-    <br>
-    <div id="dialog" title="Profile">
-        <p>I am a Japanese engineer.
-            I like to play the accordion and programming.</p>
-        </div>
-        <div id="opener">Profile</div>
 
-        <script>
-        $( function() {
-            $( "#dialog" ).dialog({
-                autoOpen: false,
-                modal: true,
-                show: {
-                    effect: "fade",
-                    duration: 800
-                },
-                hide: {
-                    effect: "fade",
-                    duration: 500
-                }
-            });
+    <nav>
+        <ul>
+            <li  class="inline"><a href=https://twitter.com/kemapoo>Twitter</a></li>
+            <li  class="inline"><a href=https://www.youtube.com/channel/UCdPFXZZgVZLrsT15tfdZXtw>Youtube</a></li>
+        </ul>
+    </nav>
 
-            $( "#opener" ).on( "click", function() {
-                $( "#dialog" ).dialog( "open" );
-            });
-        } );
-        </script>
 
-        <!-- Javascript -->
-        <script src="./js/viewport.js"></script>
-        <script>
-        $(function(){
-            //-- Setting viewport
-            //settingViewPort();
+    V-Accordion Viewer
+    <div>
+   		<a href=https://luv-accordion.github.io/V-AccordionViewer/viewer.html><img src="./images/viewer_image_index.jpg" height= 700></a>
+    </div>
 
-            //-- Show
-            $("body").css({ visibility: "visible" });
-        });
-        </script>
+    <div>
+   		<iframe width="560" height="315" src="https://www.youtube.com/embed/Ku-bbjZ7akc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/64c1Qs2L690" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
-        </script>
 
-    </body>
-    </html>
+    <footer>
+        <p>Copyright © 2018 Luv-Accordion All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
